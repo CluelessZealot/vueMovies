@@ -36,6 +36,7 @@ Vue.component('cardlayout', {
        </div>
        </div>
     `,
+    // methods and props used with componet
     props: ['movieobj'],
     methods : {
         adultTicket(){
@@ -115,7 +116,7 @@ const app = new Vue({
                     movies = response.data.results;
 
                     tempArray = movies;
-
+                    // gets the array, splices it and changes its variables pushing it into the movieTickets array
                     tempArray.splice(3,17);
                     tempArray.forEach(movieTickets => {
                         var newMovie =  {
