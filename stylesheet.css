@@ -1,0 +1,16 @@
+body{
+    background-image: url("background.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 130rem;
+   
+}
+
+#headerDiv{
+    color: white;
+    text-align: center;
+}
+
+cardlayout{
+    height: inherit;
+}
